@@ -1,0 +1,2252 @@
+[0m20:53:19.916331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067ba270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060aa150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060a9ca0>]}
+
+
+============================== 20:53:19.935654 | d1be4c65-f889-434e-ace1-29c3fb676d53 ==============================
+[0m20:53:19.935654 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:53:19.935988 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:53:24.883361 [debug] [MainThread]: Starter project path: /Users/ysung/git/dbtlearn/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:53:24.892288 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:53:24.892783 [info ] [MainThread]: Setting up your profile.
+[0m20:53:59.500792 [info ] [MainThread]: Profile dbtlearn written to /Users/ysung/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:53:59.502687 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 39.61905, "process_in_blocks": "0", "process_kernel_time": 0.124409, "process_mem_max_rss": "127123456", "process_out_blocks": "0", "process_user_time": 0.675784}
+[0m20:53:59.503655 [debug] [MainThread]: Command `dbt init` succeeded at 20:53:59.503498 after 39.62 seconds
+[0m20:53:59.504269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106969670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105fce510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e7d550>]}
+[0m20:53:59.504944 [debug] [MainThread]: Flushing usage events
+[0m20:53:59.824771 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:54:35.089573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067a3ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076a1ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067d63f0>]}
+
+
+============================== 20:54:35.092266 | 4f680e35-1aae-4245-bfcd-599f61cb54a1 ==============================
+[0m20:54:35.092266 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:54:35.092626 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'profiles_dir': '/Users/ysung/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:35.140685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4f680e35-1aae-4245-bfcd-599f61cb54a1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107798890>]}
+[0m20:54:35.155088 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:54:35.155506 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:54:35.155938 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.098547585, "process_in_blocks": "0", "process_kernel_time": 0.08878, "process_mem_max_rss": "106512384", "process_out_blocks": "0", "process_user_time": 0.672221}
+[0m20:54:35.156251 [debug] [MainThread]: Command `cli deps` succeeded at 20:54:35.156200 after 0.10 seconds
+[0m20:54:35.156433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072b9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076e3ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076e3b30>]}
+[0m20:54:35.156624 [debug] [MainThread]: Flushing usage events
+[0m20:54:35.355261 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:55:03.301950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108915250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1082ea1b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1082ea120>]}
+
+
+============================== 20:55:03.304962 | 3ac186bc-93fd-40ed-ad7a-ed49f77048ec ==============================
+[0m20:55:03.304962 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:55:03.305291 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'version_check': 'True', 'profiles_dir': '/Users/ysung/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:55:03.315362 [info ] [MainThread]: dbt version: 1.9.8
+[0m20:55:03.315601 [info ] [MainThread]: python version: 3.12.9
+[0m20:55:03.315754 [info ] [MainThread]: python path: /Users/ysung/git/dbtlearn/.venv/bin/python3
+[0m20:55:03.315890 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit
+[0m20:55:03.343572 [info ] [MainThread]: Using profiles dir at /Users/ysung/.dbt
+[0m20:55:03.343804 [info ] [MainThread]: Using profiles.yml file at /Users/ysung/.dbt/profiles.yml
+[0m20:55:03.343952 [info ] [MainThread]: Using dbt_project.yml file at /Users/ysung/git/dbtlearn/dbt_project.yml
+[0m20:55:03.344338 [info ] [MainThread]: adapter type: postgres
+[0m20:55:03.344477 [info ] [MainThread]: adapter version: 1.9.0
+[0m20:55:03.388683 [info ] [MainThread]: Configuration:
+[0m20:55:03.388981 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:55:03.389135 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:55:03.389273 [info ] [MainThread]: Required dependencies:
+[0m20:55:03.389474 [debug] [MainThread]: Executing "git --help"
+[0m20:55:03.398660 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:55:03.399192 [debug] [MainThread]: STDERR: "b''"
+[0m20:55:03.399381 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:55:03.399556 [info ] [MainThread]: Connection:
+[0m20:55:03.399727 [info ] [MainThread]:   host: 192.168.209.4
+[0m20:55:03.399858 [info ] [MainThread]:   port: 5432
+[0m20:55:03.399996 [info ] [MainThread]:   user: ysung
+[0m20:55:03.400115 [info ] [MainThread]:   database: airbnb
+[0m20:55:03.400231 [info ] [MainThread]:   schema: dev
+[0m20:55:03.400353 [info ] [MainThread]:   connect_timeout: 10
+[0m20:55:03.400477 [info ] [MainThread]:   role: None
+[0m20:55:03.400592 [info ] [MainThread]:   search_path: None
+[0m20:55:03.400711 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:55:03.400825 [info ] [MainThread]:   sslmode: None
+[0m20:55:03.400939 [info ] [MainThread]:   sslcert: None
+[0m20:55:03.401088 [info ] [MainThread]:   sslkey: None
+[0m20:55:03.401208 [info ] [MainThread]:   sslrootcert: None
+[0m20:55:03.401325 [info ] [MainThread]:   application_name: dbt
+[0m20:55:03.401443 [info ] [MainThread]:   retries: 1
+[0m20:55:03.401810 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:55:03.452290 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:55:03.498516 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:55:03.498750 [debug] [MainThread]: On debug: select 1 as id
+[0m20:55:03.498903 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:55:03.548244 [debug] [MainThread]: SQL status: SELECT 1 in 0.049 seconds
+[0m20:55:03.548884 [debug] [MainThread]: On debug: Close
+[0m20:55:03.549133 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:55:03.549317 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:55:03.549705 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.28054005, "process_in_blocks": "0", "process_kernel_time": 0.154284, "process_mem_max_rss": "120799232", "process_out_blocks": "0", "process_user_time": 0.724805}
+[0m20:55:03.550001 [debug] [MainThread]: Command `dbt debug` succeeded at 20:55:03.549943 after 0.28 seconds
+[0m20:55:03.550177 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:55:03.550376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f4f1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109395f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cf9820>]}
+[0m20:55:03.550600 [debug] [MainThread]: Flushing usage events
+[0m20:55:03.752659 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:55:28.217251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e89280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048662d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048661e0>]}
+
+
+============================== 20:55:28.219552 | 9c370869-3878-46e0-8a47-b0d3e12eb8c8 ==============================
+[0m20:55:28.219552 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:55:28.219881 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:55:28.225258 [info ] [MainThread]: dbt version: 1.9.8
+[0m20:55:28.225493 [info ] [MainThread]: python version: 3.12.9
+[0m20:55:28.225736 [info ] [MainThread]: python path: /Users/ysung/git/dbtlearn/.venv/bin/python3
+[0m20:55:28.225886 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit
+[0m20:55:28.253728 [info ] [MainThread]: Using profiles dir at /Users/ysung/.dbt
+[0m20:55:28.254013 [info ] [MainThread]: Using profiles.yml file at /Users/ysung/.dbt/profiles.yml
+[0m20:55:28.254174 [info ] [MainThread]: Using dbt_project.yml file at /Users/ysung/git/dbtlearn/dbt_project.yml
+[0m20:55:28.254462 [info ] [MainThread]: adapter type: postgres
+[0m20:55:28.254604 [info ] [MainThread]: adapter version: 1.9.0
+[0m20:55:28.301148 [info ] [MainThread]: Configuration:
+[0m20:55:28.301440 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:55:28.301602 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:55:28.301748 [info ] [MainThread]: Required dependencies:
+[0m20:55:28.301966 [debug] [MainThread]: Executing "git --help"
+[0m20:55:28.309497 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:55:28.310154 [debug] [MainThread]: STDERR: "b''"
+[0m20:55:28.310395 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:55:28.310602 [info ] [MainThread]: Connection:
+[0m20:55:28.310984 [info ] [MainThread]:   host: 192.168.209.4
+[0m20:55:28.311178 [info ] [MainThread]:   port: 5432
+[0m20:55:28.311331 [info ] [MainThread]:   user: ysung
+[0m20:55:28.311465 [info ] [MainThread]:   database: airbnb
+[0m20:55:28.311598 [info ] [MainThread]:   schema: dev
+[0m20:55:28.311742 [info ] [MainThread]:   connect_timeout: 10
+[0m20:55:28.311870 [info ] [MainThread]:   role: None
+[0m20:55:28.311998 [info ] [MainThread]:   search_path: None
+[0m20:55:28.312122 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:55:28.312248 [info ] [MainThread]:   sslmode: None
+[0m20:55:28.312370 [info ] [MainThread]:   sslcert: None
+[0m20:55:28.312496 [info ] [MainThread]:   sslkey: None
+[0m20:55:28.312616 [info ] [MainThread]:   sslrootcert: None
+[0m20:55:28.312741 [info ] [MainThread]:   application_name: dbt
+[0m20:55:28.312860 [info ] [MainThread]:   retries: 1
+[0m20:55:28.313205 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:55:28.361449 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:55:28.381726 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:55:28.381960 [debug] [MainThread]: On debug: select 1 as id
+[0m20:55:28.382110 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:55:28.419918 [debug] [MainThread]: SQL status: SELECT 1 in 0.038 seconds
+[0m20:55:28.420537 [debug] [MainThread]: On debug: Close
+[0m20:55:28.420809 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:55:28.421000 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:55:28.421364 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.23469345, "process_in_blocks": "0", "process_kernel_time": 0.129034, "process_mem_max_rss": "119013376", "process_out_blocks": "0", "process_user_time": 0.714013}
+[0m20:55:28.421653 [debug] [MainThread]: Command `dbt debug` succeeded at 20:55:28.421598 after 0.24 seconds
+[0m20:55:28.421828 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:55:28.422036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e89280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105886870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047d7fb0>]}
+[0m20:55:28.422266 [debug] [MainThread]: Flushing usage events
+[0m20:55:28.691823 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:55:33.047042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072b4e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071d61e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071d60f0>]}
+
+
+============================== 20:55:33.049405 | 530af1fb-0089-411a-9eb1-54f5aa1a2267 ==============================
+[0m20:55:33.049405 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:55:33.049731 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'debug': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt test', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:55:33.125728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fc27e0>]}
+[0m20:55:33.152269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1181125d0>]}
+[0m20:55:33.152763 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:55:33.206017 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m20:55:33.260624 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:55:33.260851 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:55:33.276874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1183af230>]}
+[0m20:55:33.305431 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m20:55:33.306841 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m20:55:33.379852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119427350>]}
+[0m20:55:33.380188 [info ] [MainThread]: Found 2 models, 4 data tests, 433 macros
+[0m20:55:33.380381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1183ae330>]}
+[0m20:55:33.381392 [info ] [MainThread]: 
+[0m20:55:33.381597 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:55:33.381750 [info ] [MainThread]: 
+[0m20:55:33.382031 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:55:33.383822 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb_dev'
+[0m20:55:33.406598 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m20:55:33.406861 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m20:55:33.407018 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:55:33.447364 [debug] [ThreadPool]: SQL status: BEGIN in 0.040 seconds
+[0m20:55:33.447681 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m20:55:33.447867 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m20:55:33.453488 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.005 seconds
+[0m20:55:33.454214 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m20:55:33.455691 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m20:55:33.458071 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.458435 [debug] [MainThread]: On master: BEGIN
+[0m20:55:33.458615 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:55:33.469285 [debug] [MainThread]: SQL status: BEGIN in 0.011 seconds
+[0m20:55:33.469522 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.469741 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m20:55:33.471777 [debug] [MainThread]: SQL status: SELECT 0 in 0.002 seconds
+[0m20:55:33.472445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '530af1fb-0089-411a-9eb1-54f5aa1a2267', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1187e4290>]}
+[0m20:55:33.472722 [debug] [MainThread]: On master: ROLLBACK
+[0m20:55:33.473157 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.473314 [debug] [MainThread]: On master: BEGIN
+[0m20:55:33.473901 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m20:55:33.474059 [debug] [MainThread]: On master: COMMIT
+[0m20:55:33.474205 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.474344 [debug] [MainThread]: On master: COMMIT
+[0m20:55:33.474705 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:55:33.474859 [debug] [MainThread]: On master: Close
+[0m20:55:33.476543 [debug] [Thread-1 (]: Began running node test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710
+[0m20:55:33.476807 [info ] [Thread-1 (]: 1 of 4 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m20:55:33.477072 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m20:55:33.477261 [debug] [Thread-1 (]: Began compiling node test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710
+[0m20:55:33.485373 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m20:55:33.486081 [debug] [Thread-1 (]: Began executing node test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710
+[0m20:55:33.493931 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m20:55:33.494498 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m20:55:33.494677 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710: BEGIN
+[0m20:55:33.494835 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:55:33.502997 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m20:55:33.503297 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m20:55:33.503493 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id
+from "airbnb"."dev"."my_first_dbt_model"
+where id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m20:55:33.504074 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "dev.my_first_dbt_model" does not exist
+LINE 17: from "airbnb"."dev"."my_first_dbt_model"
+              ^
+
+[0m20:55:33.504301 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710: ROLLBACK
+[0m20:55:33.504732 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710: Close
+[0m20:55:33.509629 [debug] [Thread-1 (]: Database Error in test not_null_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_first_dbt_model_id.sql
+[0m20:55:33.509963 [error] [Thread-1 (]: 1 of 4 ERROR not_null_my_first_dbt_model_id .................................... [[31mERROR[0m in 0.03s]
+[0m20:55:33.510265 [debug] [Thread-1 (]: Finished running node test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710
+[0m20:55:33.510467 [debug] [Thread-1 (]: Began running node test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778
+[0m20:55:33.510715 [debug] [Thread-4 (]: Marking all children of 'test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710' to be skipped because of status 'error'.  Reason: Database Error in test not_null_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_first_dbt_model_id.sql.
+[0m20:55:33.510924 [info ] [Thread-1 (]: 2 of 4 START test not_null_my_second_dbt_model_id .............................. [RUN]
+[0m20:55:33.511576 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbtlearn.not_null_my_first_dbt_model_id.5fb22c2710, now test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778)
+[0m20:55:33.511771 [debug] [Thread-1 (]: Began compiling node test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778
+[0m20:55:33.513866 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778"
+[0m20:55:33.514304 [debug] [Thread-1 (]: Began executing node test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778
+[0m20:55:33.515381 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778"
+[0m20:55:33.515684 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778"
+[0m20:55:33.515846 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778: BEGIN
+[0m20:55:33.515998 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:55:33.524522 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m20:55:33.524796 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778"
+[0m20:55:33.524982 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select id
+from "airbnb"."dev"."my_second_dbt_model"
+where id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m20:55:33.525562 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "dev.my_second_dbt_model" does not exist
+LINE 17: from "airbnb"."dev"."my_second_dbt_model"
+              ^
+
+[0m20:55:33.525849 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778: ROLLBACK
+[0m20:55:33.526385 [debug] [Thread-1 (]: On test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778: Close
+[0m20:55:33.527809 [debug] [Thread-1 (]: Database Error in test not_null_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_second_dbt_model_id.sql
+[0m20:55:33.528099 [error] [Thread-1 (]: 2 of 4 ERROR not_null_my_second_dbt_model_id ................................... [[31mERROR[0m in 0.02s]
+[0m20:55:33.528373 [debug] [Thread-1 (]: Finished running node test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778
+[0m20:55:33.528564 [debug] [Thread-1 (]: Began running node test.dbtlearn.unique_my_first_dbt_model_id.16e066b321
+[0m20:55:33.528789 [debug] [Thread-4 (]: Marking all children of 'test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778' to be skipped because of status 'error'.  Reason: Database Error in test not_null_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_second_dbt_model_id.sql.
+[0m20:55:33.528984 [info ] [Thread-1 (]: 3 of 4 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m20:55:33.529258 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbtlearn.not_null_my_second_dbt_model_id.151b76d778, now test.dbtlearn.unique_my_first_dbt_model_id.16e066b321)
+[0m20:55:33.529428 [debug] [Thread-1 (]: Began compiling node test.dbtlearn.unique_my_first_dbt_model_id.16e066b321
+[0m20:55:33.532427 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbtlearn.unique_my_first_dbt_model_id.16e066b321"
+[0m20:55:33.532845 [debug] [Thread-1 (]: Began executing node test.dbtlearn.unique_my_first_dbt_model_id.16e066b321
+[0m20:55:33.534938 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbtlearn.unique_my_first_dbt_model_id.16e066b321"
+[0m20:55:33.535349 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.unique_my_first_dbt_model_id.16e066b321"
+[0m20:55:33.535513 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_first_dbt_model_id.16e066b321: BEGIN
+[0m20:55:33.535662 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:55:33.543973 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m20:55:33.544268 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.unique_my_first_dbt_model_id.16e066b321"
+[0m20:55:33.544467 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "test.dbtlearn.unique_my_first_dbt_model_id.16e066b321"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "airbnb"."dev"."my_first_dbt_model"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m20:55:33.545099 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "dev.my_first_dbt_model" does not exist
+LINE 18: from "airbnb"."dev"."my_first_dbt_model"
+              ^
+
+[0m20:55:33.545308 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_first_dbt_model_id.16e066b321: ROLLBACK
+[0m20:55:33.545838 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_first_dbt_model_id.16e066b321: Close
+[0m20:55:33.547425 [debug] [Thread-1 (]: Database Error in test unique_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_first_dbt_model_id.sql
+[0m20:55:33.547724 [error] [Thread-1 (]: 3 of 4 ERROR unique_my_first_dbt_model_id ...................................... [[31mERROR[0m in 0.02s]
+[0m20:55:33.548011 [debug] [Thread-1 (]: Finished running node test.dbtlearn.unique_my_first_dbt_model_id.16e066b321
+[0m20:55:33.548212 [debug] [Thread-1 (]: Began running node test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493
+[0m20:55:33.548439 [debug] [Thread-4 (]: Marking all children of 'test.dbtlearn.unique_my_first_dbt_model_id.16e066b321' to be skipped because of status 'error'.  Reason: Database Error in test unique_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_first_dbt_model_id.sql.
+[0m20:55:33.548620 [info ] [Thread-1 (]: 4 of 4 START test unique_my_second_dbt_model_id ................................ [RUN]
+[0m20:55:33.548891 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbtlearn.unique_my_first_dbt_model_id.16e066b321, now test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493)
+[0m20:55:33.549061 [debug] [Thread-1 (]: Began compiling node test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493
+[0m20:55:33.551136 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493"
+[0m20:55:33.551555 [debug] [Thread-1 (]: Began executing node test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493
+[0m20:55:33.552715 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493"
+[0m20:55:33.553051 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493"
+[0m20:55:33.553231 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493: BEGIN
+[0m20:55:33.553388 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:55:33.561920 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m20:55:33.562186 [debug] [Thread-1 (]: Using postgres connection "test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493"
+[0m20:55:33.562384 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from "airbnb"."dev"."my_second_dbt_model"
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m20:55:33.562898 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "dev.my_second_dbt_model" does not exist
+LINE 18: from "airbnb"."dev"."my_second_dbt_model"
+              ^
+
+[0m20:55:33.563078 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493: ROLLBACK
+[0m20:55:33.563508 [debug] [Thread-1 (]: On test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493: Close
+[0m20:55:33.564918 [debug] [Thread-1 (]: Database Error in test unique_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_second_dbt_model_id.sql
+[0m20:55:33.565193 [error] [Thread-1 (]: 4 of 4 ERROR unique_my_second_dbt_model_id ..................................... [[31mERROR[0m in 0.02s]
+[0m20:55:33.565468 [debug] [Thread-1 (]: Finished running node test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493
+[0m20:55:33.565729 [debug] [Thread-4 (]: Marking all children of 'test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493' to be skipped because of status 'error'.  Reason: Database Error in test unique_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_second_dbt_model_id.sql.
+[0m20:55:33.566340 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.566499 [debug] [MainThread]: On master: BEGIN
+[0m20:55:33.566632 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:55:33.575146 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m20:55:33.575396 [debug] [MainThread]: On master: COMMIT
+[0m20:55:33.575563 [debug] [MainThread]: Using postgres connection "master"
+[0m20:55:33.575706 [debug] [MainThread]: On master: COMMIT
+[0m20:55:33.576211 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m20:55:33.576449 [debug] [MainThread]: On master: Close
+[0m20:55:33.576793 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:55:33.576958 [debug] [MainThread]: Connection 'test.dbtlearn.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m20:55:33.577126 [info ] [MainThread]: 
+[0m20:55:33.577307 [info ] [MainThread]: Finished running 4 data tests in 0 hours 0 minutes and 0.20 seconds (0.20s).
+[0m20:55:33.577807 [debug] [MainThread]: Command end result
+[0m20:55:33.586436 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m20:55:33.587405 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m20:55:33.590537 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m20:55:33.590728 [info ] [MainThread]: 
+[0m20:55:33.590942 [info ] [MainThread]: [31mCompleted with 4 errors, 0 partial successes, and 0 warnings:[0m
+[0m20:55:33.591108 [info ] [MainThread]: 
+[0m20:55:33.591298 [error] [MainThread]:   Database Error in test not_null_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_first_dbt_model_id.sql
+[0m20:55:33.591456 [info ] [MainThread]: 
+[0m20:55:33.591626 [error] [MainThread]:   Database Error in test not_null_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 17: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/not_null_my_second_dbt_model_id.sql
+[0m20:55:33.591771 [info ] [MainThread]: 
+[0m20:55:33.591986 [error] [MainThread]:   Database Error in test unique_my_first_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_first_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_first_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_first_dbt_model_id.sql
+[0m20:55:33.592185 [info ] [MainThread]: 
+[0m20:55:33.592378 [error] [MainThread]:   Database Error in test unique_my_second_dbt_model_id (models/example/schema.yml)
+  relation "dev.my_second_dbt_model" does not exist
+  LINE 18: from "airbnb"."dev"."my_second_dbt_model"
+                ^
+  compiled code at target/run/dbtlearn/models/example/schema.yml/unique_my_second_dbt_model_id.sql
+[0m20:55:33.592657 [info ] [MainThread]: 
+[0m20:55:33.592839 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=0 TOTAL=4
+[0m20:55:33.593155 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.5757494, "process_in_blocks": "0", "process_kernel_time": 0.14021, "process_mem_max_rss": "159760384", "process_out_blocks": "0", "process_user_time": 0.984445}
+[0m20:55:33.593400 [debug] [MainThread]: Command `dbt test` failed at 20:55:33.593362 after 0.58 seconds
+[0m20:55:33.593593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d37f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bde390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dc5e20>]}
+[0m20:55:33.593780 [debug] [MainThread]: Flushing usage events
+[0m20:55:33.776801 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:59:48.895925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f8c830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108696300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108696210>]}
+
+
+============================== 20:59:48.898885 | 89707001-a987-4e37-843d-711701af9c24 ==============================
+[0m20:59:48.898885 [info ] [MainThread]: Running with dbt=1.9.8
+[0m20:59:48.899204 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'debug': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:59:48.982469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '89707001-a987-4e37-843d-711701af9c24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092a91f0>]}
+[0m20:59:49.008963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '89707001-a987-4e37-843d-711701af9c24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108695e50>]}
+[0m20:59:49.009849 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:59:49.064721 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m20:59:49.100517 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:59:49.100733 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:59:49.101024 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m20:59:49.103426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '89707001-a987-4e37-843d-711701af9c24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092aba70>]}
+[0m20:59:49.121026 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m20:59:49.122423 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m20:59:49.132208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '89707001-a987-4e37-843d-711701af9c24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109edaa80>]}
+[0m20:59:49.132459 [info ] [MainThread]: Found 433 macros
+[0m20:59:49.132629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '89707001-a987-4e37-843d-711701af9c24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d55eb0>]}
+[0m20:59:49.133278 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:59:49.134111 [debug] [MainThread]: Command end result
+[0m20:59:49.141534 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m20:59:49.142240 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m20:59:49.143964 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m20:59:49.144305 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.28365257, "process_in_blocks": "0", "process_kernel_time": 0.143537, "process_mem_max_rss": "112017408", "process_out_blocks": "0", "process_user_time": 0.779348}
+[0m20:59:49.144565 [debug] [MainThread]: Command `dbt run` succeeded at 20:59:49.144521 after 0.28 seconds
+[0m20:59:49.144800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e43bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f8c830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ebb290>]}
+[0m20:59:49.144978 [debug] [MainThread]: Flushing usage events
+[0m20:59:49.740880 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:38:19.047280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103deb740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095da300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095da270>]}
+
+
+============================== 21:38:19.050083 | b05c54a0-25e1-4b15-a0da-fab4ba10c535 ==============================
+[0m21:38:19.050083 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:38:19.050417 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:38:19.132382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10adbc470>]}
+[0m21:38:19.158272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109b94170>]}
+[0m21:38:19.158900 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:38:19.214777 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:38:19.254433 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:38:19.254736 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:38:19.266479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b10d880>]}
+[0m21:38:19.291697 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:38:19.293634 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:38:19.305080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b86a120>]}
+[0m21:38:19.305423 [info ] [MainThread]: Found 1 model, 433 macros
+[0m21:38:19.305620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0eaed0>]}
+[0m21:38:19.306480 [info ] [MainThread]: 
+[0m21:38:19.306681 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:38:19.306833 [info ] [MainThread]: 
+[0m21:38:19.307123 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:38:19.307624 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:38:19.345195 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:38:19.345453 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:38:19.345607 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:38:19.384860 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.039 seconds
+[0m21:38:19.385664 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:38:19.386313 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:38:19.389226 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:38:19.389415 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:38:19.389580 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:38:19.404042 [debug] [ThreadPool]: SQL status: BEGIN in 0.014 seconds
+[0m21:38:19.404275 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:38:19.404447 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:38:19.406775 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.002 seconds
+[0m21:38:19.407457 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:38:19.407891 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:38:19.410994 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.411240 [debug] [MainThread]: On master: BEGIN
+[0m21:38:19.411396 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:38:19.419787 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m21:38:19.420037 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.420261 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:38:19.422504 [debug] [MainThread]: SQL status: SELECT 0 in 0.002 seconds
+[0m21:38:19.423168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc14890>]}
+[0m21:38:19.423437 [debug] [MainThread]: On master: ROLLBACK
+[0m21:38:19.423874 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.424063 [debug] [MainThread]: On master: BEGIN
+[0m21:38:19.424661 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m21:38:19.424823 [debug] [MainThread]: On master: COMMIT
+[0m21:38:19.424970 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.425110 [debug] [MainThread]: On master: COMMIT
+[0m21:38:19.425470 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:38:19.425620 [debug] [MainThread]: On master: Close
+[0m21:38:19.427148 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:38:19.427449 [info ] [Thread-1 (]: 1 of 1 START sql view model dev.src_listings ................................... [RUN]
+[0m21:38:19.427694 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_listings)
+[0m21:38:19.427873 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:38:19.431191 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:38:19.431647 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:38:19.450148 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:38:19.450766 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:19.451022 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:38:19.451216 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:38:19.459369 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:38:19.459633 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:19.459819 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings;
+  );
+[0m21:38:19.460336 [debug] [Thread-1 (]: Postgres adapter: Postgres error: syntax error at or near ";"
+LINE 20: from raw_listings;
+                          ^
+
+[0m21:38:19.460512 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: ROLLBACK
+[0m21:38:19.460931 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:38:19.466583 [debug] [Thread-1 (]: Database Error in model src_listings (models/src/src_listings.sql)
+  syntax error at or near ";"
+  LINE 20: from raw_listings;
+                            ^
+  compiled code at target/run/dbtlearn/models/src/src_listings.sql
+[0m21:38:19.467950 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b05c54a0-25e1-4b15-a0da-fab4ba10c535', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109575d30>]}
+[0m21:38:19.468306 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model dev.src_listings .......................... [[31mERROR[0m in 0.04s]
+[0m21:38:19.468606 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:38:19.468868 [debug] [Thread-4 (]: Marking all children of 'model.dbtlearn.src_listings' to be skipped because of status 'error'.  Reason: Database Error in model src_listings (models/src/src_listings.sql)
+  syntax error at or near ";"
+  LINE 20: from raw_listings;
+                            ^
+  compiled code at target/run/dbtlearn/models/src/src_listings.sql.
+[0m21:38:19.469712 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.469935 [debug] [MainThread]: On master: BEGIN
+[0m21:38:19.470085 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:38:19.477967 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m21:38:19.478197 [debug] [MainThread]: On master: COMMIT
+[0m21:38:19.478346 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:19.478483 [debug] [MainThread]: On master: COMMIT
+[0m21:38:19.478919 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:38:19.479113 [debug] [MainThread]: On master: Close
+[0m21:38:19.479411 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:38:19.479561 [debug] [MainThread]: Connection 'model.dbtlearn.src_listings' was properly closed.
+[0m21:38:19.479720 [info ] [MainThread]: 
+[0m21:38:19.479950 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.17 seconds (0.17s).
+[0m21:38:19.480325 [debug] [MainThread]: Command end result
+[0m21:38:19.489308 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:38:19.490234 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:38:19.492890 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:38:19.493070 [info ] [MainThread]: 
+[0m21:38:19.493269 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:38:19.493430 [info ] [MainThread]: 
+[0m21:38:19.493611 [error] [MainThread]:   Database Error in model src_listings (models/src/src_listings.sql)
+  syntax error at or near ";"
+  LINE 20: from raw_listings;
+                            ^
+  compiled code at target/run/dbtlearn/models/src/src_listings.sql
+[0m21:38:19.493760 [info ] [MainThread]: 
+[0m21:38:19.493923 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m21:38:19.494236 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.4808063, "process_in_blocks": "0", "process_kernel_time": 0.163721, "process_mem_max_rss": "126959616", "process_out_blocks": "0", "process_user_time": 0.888652}
+[0m21:38:19.494474 [debug] [MainThread]: Command `dbt run` failed at 21:38:19.494439 after 0.48 seconds
+[0m21:38:19.494675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103deb740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aca1970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd69880>]}
+[0m21:38:19.494857 [debug] [MainThread]: Flushing usage events
+[0m21:38:19.918093 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:38:48.795089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ae6870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cdfe30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cdfaa0>]}
+
+
+============================== 21:38:48.797424 | 84eefdfe-0228-4a7a-a3d9-ad789f698061 ==============================
+[0m21:38:48.797424 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:38:48.797750 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'profiles_dir': '/Users/ysung/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:38:48.872817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106dbec00>]}
+[0m21:38:48.899849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10690a6f0>]}
+[0m21:38:48.900390 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:38:48.953328 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:38:48.991073 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:38:48.991355 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:38:49.002775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10726d5e0>]}
+[0m21:38:49.026076 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:38:49.027374 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:38:49.033118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bb7ec0>]}
+[0m21:38:49.033385 [info ] [MainThread]: Found 1 model, 433 macros
+[0m21:38:49.033713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10726d520>]}
+[0m21:38:49.034617 [info ] [MainThread]: 
+[0m21:38:49.034844 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:38:49.034988 [info ] [MainThread]: 
+[0m21:38:49.035248 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:38:49.035667 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:38:49.057602 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:38:49.057846 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:38:49.058004 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:38:49.094498 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.036 seconds
+[0m21:38:49.095284 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:38:49.095929 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:38:49.099126 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:38:49.099332 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:38:49.099496 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:38:49.109618 [debug] [ThreadPool]: SQL status: BEGIN in 0.010 seconds
+[0m21:38:49.109860 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:38:49.110034 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:38:49.112692 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.002 seconds
+[0m21:38:49.113557 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:38:49.114286 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:38:49.117532 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.117775 [debug] [MainThread]: On master: BEGIN
+[0m21:38:49.117927 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:38:49.126931 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:38:49.127144 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.127340 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:38:49.129347 [debug] [MainThread]: SQL status: SELECT 0 in 0.002 seconds
+[0m21:38:49.129985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12091a270>]}
+[0m21:38:49.130231 [debug] [MainThread]: On master: ROLLBACK
+[0m21:38:49.130781 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.130936 [debug] [MainThread]: On master: BEGIN
+[0m21:38:49.131723 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m21:38:49.131924 [debug] [MainThread]: On master: COMMIT
+[0m21:38:49.132084 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.132226 [debug] [MainThread]: On master: COMMIT
+[0m21:38:49.132641 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:38:49.132791 [debug] [MainThread]: On master: Close
+[0m21:38:49.133935 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:38:49.134272 [info ] [Thread-1 (]: 1 of 1 START sql view model dev.src_listings ................................... [RUN]
+[0m21:38:49.134545 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_listings)
+[0m21:38:49.134733 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:38:49.137815 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:38:49.138282 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:38:49.156113 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:38:49.156656 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:49.156839 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:38:49.156997 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:38:49.165938 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m21:38:49.166227 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:49.166425 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings
+  );
+[0m21:38:49.170489 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.004 seconds
+[0m21:38:49.173809 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:49.174016 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings__dbt_tmp" rename to "src_listings"
+[0m21:38:49.174650 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:38:49.181118 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:38:49.181319 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:49.181487 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:38:49.182759 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:38:49.185687 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_listings__dbt_backup"
+[0m21:38:49.187911 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:38:49.188107 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+drop view if exists "airbnb"."dev"."src_listings__dbt_backup" cascade
+[0m21:38:49.188687 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:38:49.189808 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:38:49.190775 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '84eefdfe-0228-4a7a-a3d9-ad789f698061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ff3dd0>]}
+[0m21:38:49.191142 [info ] [Thread-1 (]: 1 of 1 OK created sql view model dev.src_listings .............................. [[32mCREATE VIEW[0m in 0.06s]
+[0m21:38:49.191436 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:38:49.192195 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.192355 [debug] [MainThread]: On master: BEGIN
+[0m21:38:49.192487 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:38:49.201445 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:38:49.201701 [debug] [MainThread]: On master: COMMIT
+[0m21:38:49.202010 [debug] [MainThread]: Using postgres connection "master"
+[0m21:38:49.202220 [debug] [MainThread]: On master: COMMIT
+[0m21:38:49.202781 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:38:49.203004 [debug] [MainThread]: On master: Close
+[0m21:38:49.203325 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:38:49.203480 [debug] [MainThread]: Connection 'model.dbtlearn.src_listings' was properly closed.
+[0m21:38:49.203650 [info ] [MainThread]: 
+[0m21:38:49.203855 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.17 seconds (0.17s).
+[0m21:38:49.204254 [debug] [MainThread]: Command end result
+[0m21:38:49.212942 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:38:49.213762 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:38:49.216352 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:38:49.216535 [info ] [MainThread]: 
+[0m21:38:49.216742 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:38:49.216963 [info ] [MainThread]: 
+[0m21:38:49.217228 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:38:49.217592 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.4525481, "process_in_blocks": "0", "process_kernel_time": 0.134613, "process_mem_max_rss": "128139264", "process_out_blocks": "0", "process_user_time": 0.904946}
+[0m21:38:49.217839 [debug] [MainThread]: Command `dbt run` succeeded at 21:38:49.217797 after 0.45 seconds
+[0m21:38:49.218036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ca5760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cdfd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cdfe00>]}
+[0m21:38:49.218213 [debug] [MainThread]: Flushing usage events
+[0m21:38:49.395828 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:41.920868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f71fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10667e180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10667e210>]}
+
+
+============================== 21:44:41.923935 | 66abc3cc-e912-418d-b3ad-ea67ce6260fa ==============================
+[0m21:44:41.923935 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:44:41.924252 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m21:44:42.001997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071891f0>]}
+[0m21:44:42.028443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071d1220>]}
+[0m21:44:42.029785 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:44:42.084344 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:44:42.120454 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:44:42.120702 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:44:42.132257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10728fad0>]}
+[0m21:44:42.156852 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:44:42.158663 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:44:42.169468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e76420>]}
+[0m21:44:42.169792 [info ] [MainThread]: Found 2 models, 433 macros
+[0m21:44:42.169990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e938f0>]}
+[0m21:44:42.170885 [info ] [MainThread]: 
+[0m21:44:42.171087 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:44:42.171235 [info ] [MainThread]: 
+[0m21:44:42.171516 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:44:42.173393 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:44:42.201491 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:44:42.201755 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:42.201917 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:42.234204 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.032 seconds
+[0m21:44:42.234957 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:44:42.235649 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:44:42.238851 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:44:42.239058 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:44:42.239213 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:42.261961 [debug] [ThreadPool]: SQL status: BEGIN in 0.023 seconds
+[0m21:44:42.262218 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:44:42.262399 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:44:42.264203 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.002 seconds
+[0m21:44:42.264952 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:44:42.265451 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:44:42.268922 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.269168 [debug] [MainThread]: On master: BEGIN
+[0m21:44:42.269332 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:44:42.277662 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m21:44:42.277908 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.278136 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:44:42.280496 [debug] [MainThread]: SQL status: SELECT 1 in 0.002 seconds
+[0m21:44:42.281187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d565d0>]}
+[0m21:44:42.281461 [debug] [MainThread]: On master: ROLLBACK
+[0m21:44:42.281884 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.282047 [debug] [MainThread]: On master: BEGIN
+[0m21:44:42.282626 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m21:44:42.282782 [debug] [MainThread]: On master: COMMIT
+[0m21:44:42.282936 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.283078 [debug] [MainThread]: On master: COMMIT
+[0m21:44:42.283480 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:42.283649 [debug] [MainThread]: On master: Close
+[0m21:44:42.285161 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:44:42.285447 [info ] [Thread-1 (]: 1 of 2 START sql view model dev.src_listings ................................... [RUN]
+[0m21:44:42.285695 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_listings)
+[0m21:44:42.285877 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:44:42.288987 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:44:42.289406 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:44:42.305546 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:44:42.306075 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.306260 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:44:42.306420 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:42.314614 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:44:42.314862 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.315054 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings
+  );
+[0m21:44:42.317184 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.002 seconds
+[0m21:44:42.320484 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.320693 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings" rename to "src_listings__dbt_backup"
+[0m21:44:42.321345 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:42.322769 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.322952 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings__dbt_tmp" rename to "src_listings"
+[0m21:44:42.323473 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:42.330955 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:44:42.331159 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.331327 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:44:42.332832 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:42.335743 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_listings__dbt_backup"
+[0m21:44:42.338047 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:42.338246 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+drop view if exists "airbnb"."dev"."src_listings__dbt_backup" cascade
+[0m21:44:42.339518 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:44:42.340671 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:44:42.341857 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106622330>]}
+[0m21:44:42.342222 [info ] [Thread-1 (]: 1 of 2 OK created sql view model dev.src_listings .............................. [[32mCREATE VIEW[0m in 0.06s]
+[0m21:44:42.342519 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:44:42.342719 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_reviews
+[0m21:44:42.342936 [info ] [Thread-1 (]: 2 of 2 START sql view model dev.src_reviews .................................... [RUN]
+[0m21:44:42.343153 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_listings, now model.dbtlearn.src_reviews)
+[0m21:44:42.343380 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_reviews
+[0m21:44:42.344345 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_reviews"
+[0m21:44:42.344760 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_reviews
+[0m21:44:42.346356 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_reviews"
+[0m21:44:42.346693 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:42.346874 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: BEGIN
+[0m21:44:42.347039 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:42.355339 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:44:42.355608 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:42.355798 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+
+  create view "airbnb"."dev"."src_reviews__dbt_tmp"
+    
+    
+  as (
+    with raw_reviews as (
+    select * from raw.raw_reviews
+)
+select 
+  listing_id,
+  date::date as review_date,
+  reviwer_name,
+  comments as review_text,
+  sentiment as review_sentiment
+from raw_reviews
+  );
+[0m21:44:42.356384 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "reviwer_name" does not exist
+LINE 13:   reviwer_name,
+           ^
+HINT:  Perhaps you meant to reference the column "raw_reviews.reviewer_name".
+
+[0m21:44:42.356611 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: ROLLBACK
+[0m21:44:42.357015 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: Close
+[0m21:44:42.362090 [debug] [Thread-1 (]: Database Error in model src_reviews (models/src/src_reviews.sql)
+  column "reviwer_name" does not exist
+  LINE 13:   reviwer_name,
+             ^
+  HINT:  Perhaps you meant to reference the column "raw_reviews.reviewer_name".
+  compiled code at target/run/dbtlearn/models/src/src_reviews.sql
+[0m21:44:42.362371 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66abc3cc-e912-418d-b3ad-ea67ce6260fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081e5d90>]}
+[0m21:44:42.362708 [error] [Thread-1 (]: 2 of 2 ERROR creating sql view model dev.src_reviews ........................... [[31mERROR[0m in 0.02s]
+[0m21:44:42.362996 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_reviews
+[0m21:44:42.363263 [debug] [Thread-4 (]: Marking all children of 'model.dbtlearn.src_reviews' to be skipped because of status 'error'.  Reason: Database Error in model src_reviews (models/src/src_reviews.sql)
+  column "reviwer_name" does not exist
+  LINE 13:   reviwer_name,
+             ^
+  HINT:  Perhaps you meant to reference the column "raw_reviews.reviewer_name".
+  compiled code at target/run/dbtlearn/models/src/src_reviews.sql.
+[0m21:44:42.364165 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.364369 [debug] [MainThread]: On master: BEGIN
+[0m21:44:42.364527 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:44:42.372459 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m21:44:42.372696 [debug] [MainThread]: On master: COMMIT
+[0m21:44:42.372847 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:42.372987 [debug] [MainThread]: On master: COMMIT
+[0m21:44:42.373396 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:42.373591 [debug] [MainThread]: On master: Close
+[0m21:44:42.373874 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:44:42.374035 [debug] [MainThread]: Connection 'model.dbtlearn.src_reviews' was properly closed.
+[0m21:44:42.374233 [info ] [MainThread]: 
+[0m21:44:42.374424 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.20 seconds (0.20s).
+[0m21:44:42.374805 [debug] [MainThread]: Command end result
+[0m21:44:42.383999 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:44:42.384891 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:44:42.387600 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:44:42.387807 [info ] [MainThread]: 
+[0m21:44:42.387994 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:44:42.388145 [info ] [MainThread]: 
+[0m21:44:42.388326 [error] [MainThread]:   Database Error in model src_reviews (models/src/src_reviews.sql)
+  column "reviwer_name" does not exist
+  LINE 13:   reviwer_name,
+             ^
+  HINT:  Perhaps you meant to reference the column "raw_reviews.reviewer_name".
+  compiled code at target/run/dbtlearn/models/src/src_reviews.sql
+[0m21:44:42.388469 [info ] [MainThread]: 
+[0m21:44:42.388619 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 TOTAL=2
+[0m21:44:42.388903 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.4987686, "process_in_blocks": "0", "process_kernel_time": 0.158582, "process_mem_max_rss": "126779392", "process_out_blocks": "0", "process_user_time": 0.920669}
+[0m21:44:42.389120 [debug] [MainThread]: Command `dbt run` failed at 21:44:42.389084 after 0.50 seconds
+[0m21:44:42.389315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d8cd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1066542c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10718be00>]}
+[0m21:44:42.389490 [debug] [MainThread]: Flushing usage events
+[0m21:44:42.702732 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:55.658947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10449deb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044cab70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044c90d0>]}
+
+
+============================== 21:44:55.661451 | bb68a6e7-6254-4076-915d-33ea5fdb0445 ==============================
+[0m21:44:55.661451 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:44:55.661787 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:44:55.738950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104966d20>]}
+[0m21:44:55.765544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1031e39e0>]}
+[0m21:44:55.766024 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:44:55.817521 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:44:55.852528 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:44:55.852768 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:44:55.863656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050dbec0>]}
+[0m21:44:55.886835 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:44:55.888154 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:44:55.893938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cbe480>]}
+[0m21:44:55.894189 [info ] [MainThread]: Found 2 models, 433 macros
+[0m21:44:55.894372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054ae2a0>]}
+[0m21:44:55.895154 [info ] [MainThread]: 
+[0m21:44:55.895337 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:44:55.895481 [info ] [MainThread]: 
+[0m21:44:55.895765 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:44:55.897447 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:44:55.918488 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:44:55.918752 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:44:55.918918 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:44:55.953371 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.034 seconds
+[0m21:44:55.954230 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:44:55.954949 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:44:55.957947 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:44:55.958142 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:44:55.958295 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:44:55.971509 [debug] [ThreadPool]: SQL status: BEGIN in 0.013 seconds
+[0m21:44:55.971756 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:44:55.971934 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:44:55.973659 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.002 seconds
+[0m21:44:55.974337 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:44:55.974800 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:44:55.978188 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:55.978511 [debug] [MainThread]: On master: BEGIN
+[0m21:44:55.978768 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:44:55.987763 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:44:55.988026 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:55.988239 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:44:55.990487 [debug] [MainThread]: SQL status: SELECT 1 in 0.002 seconds
+[0m21:44:55.991158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b306e0>]}
+[0m21:44:55.991406 [debug] [MainThread]: On master: ROLLBACK
+[0m21:44:55.991926 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:55.992080 [debug] [MainThread]: On master: BEGIN
+[0m21:44:55.992987 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m21:44:55.993142 [debug] [MainThread]: On master: COMMIT
+[0m21:44:55.993286 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:55.993416 [debug] [MainThread]: On master: COMMIT
+[0m21:44:55.993895 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:55.994100 [debug] [MainThread]: On master: Close
+[0m21:44:55.995277 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:44:55.995560 [info ] [Thread-1 (]: 1 of 2 START sql view model dev.src_listings ................................... [RUN]
+[0m21:44:55.995804 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_listings)
+[0m21:44:55.995983 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:44:55.999140 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:44:55.999630 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:44:56.015403 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:44:56.015995 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.016194 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:44:56.016367 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:56.026078 [debug] [Thread-1 (]: SQL status: BEGIN in 0.010 seconds
+[0m21:44:56.026359 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.026554 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings
+  );
+[0m21:44:56.028178 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:44:56.031485 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.031721 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings" rename to "src_listings__dbt_backup"
+[0m21:44:56.032644 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:44:56.034382 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.034591 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings__dbt_tmp" rename to "src_listings"
+[0m21:44:56.035190 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:56.043234 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:44:56.043428 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.043585 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:44:56.045308 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m21:44:56.048068 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_listings__dbt_backup"
+[0m21:44:56.050225 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:44:56.050419 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+drop view if exists "airbnb"."dev"."src_listings__dbt_backup" cascade
+[0m21:44:56.051768 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:44:56.053121 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:44:56.054221 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060d9490>]}
+[0m21:44:56.054607 [info ] [Thread-1 (]: 1 of 2 OK created sql view model dev.src_listings .............................. [[32mCREATE VIEW[0m in 0.06s]
+[0m21:44:56.054919 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:44:56.055130 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_reviews
+[0m21:44:56.055349 [info ] [Thread-1 (]: 2 of 2 START sql view model dev.src_reviews .................................... [RUN]
+[0m21:44:56.055630 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_listings, now model.dbtlearn.src_reviews)
+[0m21:44:56.055851 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_reviews
+[0m21:44:56.056833 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_reviews"
+[0m21:44:56.057206 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_reviews
+[0m21:44:56.058817 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_reviews"
+[0m21:44:56.059122 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:56.059300 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: BEGIN
+[0m21:44:56.059461 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:44:56.067597 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:44:56.067876 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:56.068065 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+
+  create view "airbnb"."dev"."src_reviews__dbt_tmp"
+    
+    
+  as (
+    with raw_reviews as (
+    select * from raw.raw_reviews
+)
+select 
+  listing_id,
+  date::date as review_date,
+  reviewer_name,
+  comments as review_text,
+  sentiment as review_sentiment
+from raw_reviews
+  );
+[0m21:44:56.069384 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:44:56.070820 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:56.071001 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+alter table "airbnb"."dev"."src_reviews__dbt_tmp" rename to "src_reviews"
+[0m21:44:56.071675 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:44:56.073352 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:44:56.073558 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:56.073719 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:44:56.074622 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:44:56.075681 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_reviews__dbt_backup"
+[0m21:44:56.076039 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:44:56.076200 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+drop view if exists "airbnb"."dev"."src_reviews__dbt_backup" cascade
+[0m21:44:56.076654 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:44:56.077259 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: Close
+[0m21:44:56.077602 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bb68a6e7-6254-4076-915d-33ea5fdb0445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106126f60>]}
+[0m21:44:56.077924 [info ] [Thread-1 (]: 2 of 2 OK created sql view model dev.src_reviews ............................... [[32mCREATE VIEW[0m in 0.02s]
+[0m21:44:56.078207 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_reviews
+[0m21:44:56.078811 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:56.078970 [debug] [MainThread]: On master: BEGIN
+[0m21:44:56.079103 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:44:56.087851 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:44:56.088124 [debug] [MainThread]: On master: COMMIT
+[0m21:44:56.088287 [debug] [MainThread]: Using postgres connection "master"
+[0m21:44:56.088432 [debug] [MainThread]: On master: COMMIT
+[0m21:44:56.088876 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:44:56.089081 [debug] [MainThread]: On master: Close
+[0m21:44:56.089370 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:44:56.089518 [debug] [MainThread]: Connection 'model.dbtlearn.src_reviews' was properly closed.
+[0m21:44:56.089719 [info ] [MainThread]: 
+[0m21:44:56.089909 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.19 seconds (0.19s).
+[0m21:44:56.090289 [debug] [MainThread]: Command end result
+[0m21:44:56.098601 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:44:56.099501 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:44:56.102551 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:44:56.102794 [info ] [MainThread]: 
+[0m21:44:56.102987 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:44:56.103140 [info ] [MainThread]: 
+[0m21:44:56.103299 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m21:44:56.103601 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.47685936, "process_in_blocks": "0", "process_kernel_time": 0.131351, "process_mem_max_rss": "125861888", "process_out_blocks": "0", "process_user_time": 0.921199}
+[0m21:44:56.103825 [debug] [MainThread]: Command `dbt run` succeeded at 21:44:56.103788 after 0.48 seconds
+[0m21:44:56.104010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fd3dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fd3b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fd3fe0>]}
+[0m21:44:56.104183 [debug] [MainThread]: Flushing usage events
+[0m21:44:56.290605 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:46:47.380369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123cfdf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123fd48c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123fd5fd0>]}
+
+
+============================== 21:46:47.382720 | 48e79a5a-3246-449b-a8e8-68c1d8f31b48 ==============================
+[0m21:46:47.382720 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:46:47.383050 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:46:47.458278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121234c50>]}
+[0m21:46:47.484221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1224b40e0>]}
+[0m21:46:47.484679 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:46:47.536088 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:46:47.572563 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:46:47.572792 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:46:47.583972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x125ca7080>]}
+[0m21:46:47.607235 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:46:47.608582 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:46:47.614745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1265e6480>]}
+[0m21:46:47.615020 [info ] [MainThread]: Found 3 models, 433 macros
+[0m21:46:47.615197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1265c32c0>]}
+[0m21:46:47.616035 [info ] [MainThread]: 
+[0m21:46:47.616220 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:46:47.616376 [info ] [MainThread]: 
+[0m21:46:47.616639 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:46:47.618392 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:46:47.643069 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:46:47.643294 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:46:47.643449 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:46:47.680923 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.037 seconds
+[0m21:46:47.681724 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:46:47.682431 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:46:47.685526 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:46:47.685749 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:46:47.685915 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:46:47.696639 [debug] [ThreadPool]: SQL status: BEGIN in 0.011 seconds
+[0m21:46:47.696902 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:46:47.697079 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:46:47.698891 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.002 seconds
+[0m21:46:47.699663 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:46:47.700246 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:46:47.703800 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.704032 [debug] [MainThread]: On master: BEGIN
+[0m21:46:47.704179 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:46:47.712894 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:46:47.713110 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.713307 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:46:47.715687 [debug] [MainThread]: SQL status: SELECT 2 in 0.002 seconds
+[0m21:46:47.716373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12717b4d0>]}
+[0m21:46:47.716621 [debug] [MainThread]: On master: ROLLBACK
+[0m21:46:47.717156 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.717438 [debug] [MainThread]: On master: BEGIN
+[0m21:46:47.718408 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m21:46:47.718632 [debug] [MainThread]: On master: COMMIT
+[0m21:46:47.718792 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.718942 [debug] [MainThread]: On master: COMMIT
+[0m21:46:47.719369 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:46:47.719519 [debug] [MainThread]: On master: Close
+[0m21:46:47.720724 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_hosts
+[0m21:46:47.721066 [info ] [Thread-1 (]: 1 of 3 START sql view model dev.src_hosts ...................................... [RUN]
+[0m21:46:47.721338 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_hosts)
+[0m21:46:47.721517 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_hosts
+[0m21:46:47.724618 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_hosts"
+[0m21:46:47.725102 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_hosts
+[0m21:46:47.741284 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_hosts"
+[0m21:46:47.741795 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:46:47.741973 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: BEGIN
+[0m21:46:47.742126 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:46:47.750832 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m21:46:47.751152 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:46:47.751361 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+
+  create view "airbnb"."dev"."src_hosts__dbt_tmp"
+    
+    
+  as (
+    with raw_hosts as (
+    select * from raw.raw_hosts
+)
+select 
+  id as host_id,
+  name as host_name,
+  is_superhost,
+  created_at::timestamp with time zone,
+  updated_at::timestamp with time zone
+from raw_hosts
+  );
+[0m21:46:47.752778 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:46:47.756168 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:46:47.756381 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+alter table "airbnb"."dev"."src_hosts__dbt_tmp" rename to "src_hosts"
+[0m21:46:47.757028 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:46:47.763523 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: COMMIT
+[0m21:46:47.763723 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:46:47.763884 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: COMMIT
+[0m21:46:47.765354 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:46:47.768238 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_hosts__dbt_backup"
+[0m21:46:47.770538 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:46:47.770735 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+drop view if exists "airbnb"."dev"."src_hosts__dbt_backup" cascade
+[0m21:46:47.771277 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m21:46:47.772410 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: Close
+[0m21:46:47.773378 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123f766c0>]}
+[0m21:46:47.773723 [info ] [Thread-1 (]: 1 of 3 OK created sql view model dev.src_hosts ................................. [[32mCREATE VIEW[0m in 0.05s]
+[0m21:46:47.774017 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_hosts
+[0m21:46:47.774228 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:46:47.774439 [info ] [Thread-1 (]: 2 of 3 START sql view model dev.src_listings ................................... [RUN]
+[0m21:46:47.774706 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_hosts, now model.dbtlearn.src_listings)
+[0m21:46:47.774923 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:46:47.775820 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:46:47.776222 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:46:47.777826 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:46:47.778148 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.778316 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:46:47.778475 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:46:47.787725 [debug] [Thread-1 (]: SQL status: BEGIN in 0.009 seconds
+[0m21:46:47.787975 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.788162 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings
+  );
+[0m21:46:47.789479 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:46:47.790980 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.791170 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings" rename to "src_listings__dbt_backup"
+[0m21:46:47.791776 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:46:47.793039 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.793208 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings__dbt_tmp" rename to "src_listings"
+[0m21:46:47.793744 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:46:47.796217 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:46:47.796401 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.796572 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:46:47.797695 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:46:47.798742 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_listings__dbt_backup"
+[0m21:46:47.799102 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:46:47.799268 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+drop view if exists "airbnb"."dev"."src_listings__dbt_backup" cascade
+[0m21:46:47.800717 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:46:47.801345 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:46:47.801714 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x127326270>]}
+[0m21:46:47.802018 [info ] [Thread-1 (]: 2 of 3 OK created sql view model dev.src_listings .............................. [[32mCREATE VIEW[0m in 0.03s]
+[0m21:46:47.802285 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:46:47.802475 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_reviews
+[0m21:46:47.802674 [info ] [Thread-1 (]: 3 of 3 START sql view model dev.src_reviews .................................... [RUN]
+[0m21:46:47.802911 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_listings, now model.dbtlearn.src_reviews)
+[0m21:46:47.803075 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_reviews
+[0m21:46:47.803897 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_reviews"
+[0m21:46:47.804290 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_reviews
+[0m21:46:47.805771 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_reviews"
+[0m21:46:47.806080 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.806238 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: BEGIN
+[0m21:46:47.806388 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:46:47.814772 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:46:47.815022 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.815198 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+
+  create view "airbnb"."dev"."src_reviews__dbt_tmp"
+    
+    
+  as (
+    with raw_reviews as (
+    select * from raw.raw_reviews
+)
+select 
+  listing_id,
+  date::date as review_date,
+  reviewer_name,
+  comments as review_text,
+  sentiment as review_sentiment
+from raw_reviews
+  );
+[0m21:46:47.816380 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:46:47.818111 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.818344 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+alter table "airbnb"."dev"."src_reviews" rename to "src_reviews__dbt_backup"
+[0m21:46:47.819106 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:46:47.820636 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.820824 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+alter table "airbnb"."dev"."src_reviews__dbt_tmp" rename to "src_reviews"
+[0m21:46:47.821338 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:46:47.822090 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:46:47.822254 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.822400 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:46:47.823285 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:46:47.824310 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_reviews__dbt_backup"
+[0m21:46:47.824637 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:46:47.824793 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+drop view if exists "airbnb"."dev"."src_reviews__dbt_backup" cascade
+[0m21:46:47.825802 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:46:47.826396 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: Close
+[0m21:46:47.826747 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '48e79a5a-3246-449b-a8e8-68c1d8f31b48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12734d310>]}
+[0m21:46:47.827049 [info ] [Thread-1 (]: 3 of 3 OK created sql view model dev.src_reviews ............................... [[32mCREATE VIEW[0m in 0.02s]
+[0m21:46:47.827320 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_reviews
+[0m21:46:47.827982 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.828192 [debug] [MainThread]: On master: BEGIN
+[0m21:46:47.828345 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:46:47.837343 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:46:47.837623 [debug] [MainThread]: On master: COMMIT
+[0m21:46:47.837823 [debug] [MainThread]: Using postgres connection "master"
+[0m21:46:47.837980 [debug] [MainThread]: On master: COMMIT
+[0m21:46:47.838480 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:46:47.838658 [debug] [MainThread]: On master: Close
+[0m21:46:47.838958 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:46:47.839110 [debug] [MainThread]: Connection 'model.dbtlearn.src_reviews' was properly closed.
+[0m21:46:47.839300 [info ] [MainThread]: 
+[0m21:46:47.839474 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 0.22 seconds (0.22s).
+[0m21:46:47.839927 [debug] [MainThread]: Command end result
+[0m21:46:47.848850 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:46:47.849663 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:46:47.852545 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:46:47.852758 [info ] [MainThread]: 
+[0m21:46:47.852975 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:46:47.853223 [info ] [MainThread]: 
+[0m21:46:47.853544 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m21:46:47.853870 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.50337136, "process_in_blocks": "0", "process_kernel_time": 0.147013, "process_mem_max_rss": "126042112", "process_out_blocks": "0", "process_user_time": 0.931166}
+[0m21:46:47.854109 [debug] [MainThread]: Command `dbt run` succeeded at 21:46:47.854069 after 0.50 seconds
+[0m21:46:47.854303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1250c7620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12538ba40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123fa01a0>]}
+[0m21:46:47.854481 [debug] [MainThread]: Flushing usage events
+[0m21:46:48.096968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:48:40.807359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d2adb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043823c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043822d0>]}
+
+
+============================== 21:48:40.809744 | 23c4e6c6-e040-47ac-b6e5-b031a0a47cf2 ==============================
+[0m21:48:40.809744 [info ] [MainThread]: Running with dbt=1.9.8
+[0m21:48:40.810067 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ysung/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/ysung/git/dbtlearn/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:48:40.886965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d8c9e0>]}
+[0m21:48:40.914509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f8f950>]}
+[0m21:48:40.915079 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:48:40.967380 [debug] [MainThread]: checksum: 2898e47e730fa32147e5ae95c02f42c1d51b8fd2b81922b9b731f0208caf4dff, vars: {}, profile: , target: , version: 1.9.8
+[0m21:48:41.004423 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:48:41.004653 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:48:41.015515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10546f1a0>]}
+[0m21:48:41.039531 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:48:41.040869 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:48:41.046908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bea780>]}
+[0m21:48:41.047171 [info ] [MainThread]: Found 3 models, 433 macros
+[0m21:48:41.047352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10546c7d0>]}
+[0m21:48:41.048151 [info ] [MainThread]: 
+[0m21:48:41.048342 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:48:41.048494 [info ] [MainThread]: 
+[0m21:48:41.048732 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:48:41.050457 [debug] [ThreadPool]: Acquiring new postgres connection 'list_airbnb'
+[0m21:48:41.076392 [debug] [ThreadPool]: Using postgres connection "list_airbnb"
+[0m21:48:41.076666 [debug] [ThreadPool]: On list_airbnb: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m21:48:41.076825 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:48:41.111364 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.034 seconds
+[0m21:48:41.112226 [debug] [ThreadPool]: On list_airbnb: Close
+[0m21:48:41.113069 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_airbnb, now list_airbnb_dev)
+[0m21:48:41.116364 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:48:41.116606 [debug] [ThreadPool]: On list_airbnb_dev: BEGIN
+[0m21:48:41.116766 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:48:41.126742 [debug] [ThreadPool]: SQL status: BEGIN in 0.010 seconds
+[0m21:48:41.126985 [debug] [ThreadPool]: Using postgres connection "list_airbnb_dev"
+[0m21:48:41.127153 [debug] [ThreadPool]: On list_airbnb_dev: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "list_airbnb_dev"} */
+select
+      'airbnb' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dev'
+    union all
+    select
+      'airbnb' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dev'
+  
+[0m21:48:41.128954 [debug] [ThreadPool]: SQL status: SELECT 3 in 0.002 seconds
+[0m21:48:41.129668 [debug] [ThreadPool]: On list_airbnb_dev: ROLLBACK
+[0m21:48:41.130165 [debug] [ThreadPool]: On list_airbnb_dev: Close
+[0m21:48:41.133531 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.133770 [debug] [MainThread]: On master: BEGIN
+[0m21:48:41.133923 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:48:41.143028 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:48:41.143280 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.143488 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:48:41.145818 [debug] [MainThread]: SQL status: SELECT 3 in 0.002 seconds
+[0m21:48:41.146513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e514c0>]}
+[0m21:48:41.146763 [debug] [MainThread]: On master: ROLLBACK
+[0m21:48:41.147313 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.147467 [debug] [MainThread]: On master: BEGIN
+[0m21:48:41.148198 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m21:48:41.148365 [debug] [MainThread]: On master: COMMIT
+[0m21:48:41.148507 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.148639 [debug] [MainThread]: On master: COMMIT
+[0m21:48:41.149060 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:48:41.149205 [debug] [MainThread]: On master: Close
+[0m21:48:41.150433 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_hosts
+[0m21:48:41.150773 [info ] [Thread-1 (]: 1 of 3 START sql view model dev.src_hosts ...................................... [RUN]
+[0m21:48:41.151169 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_airbnb_dev, now model.dbtlearn.src_hosts)
+[0m21:48:41.151447 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_hosts
+[0m21:48:41.154500 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_hosts"
+[0m21:48:41.154936 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_hosts
+[0m21:48:41.171359 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_hosts"
+[0m21:48:41.171889 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.172069 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: BEGIN
+[0m21:48:41.172233 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:41.180783 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:48:41.181110 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.181303 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+
+  create view "airbnb"."dev"."src_hosts__dbt_tmp"
+    
+    
+  as (
+    with raw_hosts as (
+    select * from raw.raw_hosts
+)
+select 
+  id as host_id,
+  name as host_name,
+  is_superhost::boolean,
+  created_at::timestamp with time zone,
+  updated_at::timestamp with time zone
+from raw_hosts
+  );
+[0m21:48:41.182646 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:48:41.186249 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.186502 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+alter table "airbnb"."dev"."src_hosts" rename to "src_hosts__dbt_backup"
+[0m21:48:41.187222 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m21:48:41.188616 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.188798 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+alter table "airbnb"."dev"."src_hosts__dbt_tmp" rename to "src_hosts"
+[0m21:48:41.189342 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:48:41.196842 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: COMMIT
+[0m21:48:41.197053 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.197219 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: COMMIT
+[0m21:48:41.198472 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:48:41.201303 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_hosts__dbt_backup"
+[0m21:48:41.203619 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_hosts"
+[0m21:48:41.203825 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_hosts"} */
+drop view if exists "airbnb"."dev"."src_hosts__dbt_backup" cascade
+[0m21:48:41.204981 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:48:41.206150 [debug] [Thread-1 (]: On model.dbtlearn.src_hosts: Close
+[0m21:48:41.207143 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f7f440>]}
+[0m21:48:41.207507 [info ] [Thread-1 (]: 1 of 3 OK created sql view model dev.src_hosts ................................. [[32mCREATE VIEW[0m in 0.06s]
+[0m21:48:41.207808 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_hosts
+[0m21:48:41.208013 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_listings
+[0m21:48:41.208233 [info ] [Thread-1 (]: 2 of 3 START sql view model dev.src_listings ................................... [RUN]
+[0m21:48:41.208487 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_hosts, now model.dbtlearn.src_listings)
+[0m21:48:41.208676 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_listings
+[0m21:48:41.209565 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_listings"
+[0m21:48:41.209951 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_listings
+[0m21:48:41.211524 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_listings"
+[0m21:48:41.211843 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.212013 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: BEGIN
+[0m21:48:41.212176 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:41.220307 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:48:41.220594 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.220789 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+
+  create view "airbnb"."dev"."src_listings__dbt_tmp"
+    
+    
+  as (
+    with raw_listings as (
+    select * from raw.raw_listings
+) 
+select 
+  id as listing_id, 
+  name as listing_name, 
+  listing_url, 
+  room_type, 
+  minimum_nights, 
+  host_id, 
+  price as price_str,
+  created_at::timestamp with time zone, 
+  updated_at::timestamp with time zone
+from raw_listings
+  );
+[0m21:48:41.222071 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:48:41.223537 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.223728 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings" rename to "src_listings__dbt_backup"
+[0m21:48:41.224315 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:48:41.226359 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.226538 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+alter table "airbnb"."dev"."src_listings__dbt_tmp" rename to "src_listings"
+[0m21:48:41.227101 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:48:41.227924 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:48:41.228095 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.228246 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: COMMIT
+[0m21:48:41.229171 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:48:41.230167 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_listings__dbt_backup"
+[0m21:48:41.230517 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_listings"
+[0m21:48:41.230681 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_listings"} */
+drop view if exists "airbnb"."dev"."src_listings__dbt_backup" cascade
+[0m21:48:41.231706 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:48:41.232291 [debug] [Thread-1 (]: On model.dbtlearn.src_listings: Close
+[0m21:48:41.232647 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10604bf20>]}
+[0m21:48:41.232943 [info ] [Thread-1 (]: 2 of 3 OK created sql view model dev.src_listings .............................. [[32mCREATE VIEW[0m in 0.02s]
+[0m21:48:41.233205 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_listings
+[0m21:48:41.233396 [debug] [Thread-1 (]: Began running node model.dbtlearn.src_reviews
+[0m21:48:41.233593 [info ] [Thread-1 (]: 3 of 3 START sql view model dev.src_reviews .................................... [RUN]
+[0m21:48:41.233799 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbtlearn.src_listings, now model.dbtlearn.src_reviews)
+[0m21:48:41.233963 [debug] [Thread-1 (]: Began compiling node model.dbtlearn.src_reviews
+[0m21:48:41.234740 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbtlearn.src_reviews"
+[0m21:48:41.235162 [debug] [Thread-1 (]: Began executing node model.dbtlearn.src_reviews
+[0m21:48:41.236749 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbtlearn.src_reviews"
+[0m21:48:41.237069 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.237234 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: BEGIN
+[0m21:48:41.237386 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:48:41.245625 [debug] [Thread-1 (]: SQL status: BEGIN in 0.008 seconds
+[0m21:48:41.245882 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.246065 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+
+  create view "airbnb"."dev"."src_reviews__dbt_tmp"
+    
+    
+  as (
+    with raw_reviews as (
+    select * from raw.raw_reviews
+)
+select 
+  listing_id,
+  date::date as review_date,
+  reviewer_name,
+  comments as review_text,
+  sentiment as review_sentiment
+from raw_reviews
+  );
+[0m21:48:41.247275 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.001 seconds
+[0m21:48:41.248793 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.248988 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+alter table "airbnb"."dev"."src_reviews" rename to "src_reviews__dbt_backup"
+[0m21:48:41.249545 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:48:41.250756 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.250990 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+alter table "airbnb"."dev"."src_reviews__dbt_tmp" rename to "src_reviews"
+[0m21:48:41.251602 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m21:48:41.252466 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:48:41.252666 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.252828 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: COMMIT
+[0m21:48:41.254169 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m21:48:41.255393 [debug] [Thread-1 (]: Applying DROP to: "airbnb"."dev"."src_reviews__dbt_backup"
+[0m21:48:41.255805 [debug] [Thread-1 (]: Using postgres connection "model.dbtlearn.src_reviews"
+[0m21:48:41.255988 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: /* {"app": "dbt", "dbt_version": "1.9.8", "profile_name": "dbtlearn", "target_name": "dev", "node_id": "model.dbtlearn.src_reviews"} */
+drop view if exists "airbnb"."dev"."src_reviews__dbt_backup" cascade
+[0m21:48:41.257282 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m21:48:41.257878 [debug] [Thread-1 (]: On model.dbtlearn.src_reviews: Close
+[0m21:48:41.258217 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '23c4e6c6-e040-47ac-b6e5-b031a0a47cf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f58110>]}
+[0m21:48:41.258516 [info ] [Thread-1 (]: 3 of 3 OK created sql view model dev.src_reviews ............................... [[32mCREATE VIEW[0m in 0.02s]
+[0m21:48:41.258783 [debug] [Thread-1 (]: Finished running node model.dbtlearn.src_reviews
+[0m21:48:41.259390 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.259549 [debug] [MainThread]: On master: BEGIN
+[0m21:48:41.259684 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:48:41.268381 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m21:48:41.268618 [debug] [MainThread]: On master: COMMIT
+[0m21:48:41.268779 [debug] [MainThread]: Using postgres connection "master"
+[0m21:48:41.268921 [debug] [MainThread]: On master: COMMIT
+[0m21:48:41.269421 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m21:48:41.269591 [debug] [MainThread]: On master: Close
+[0m21:48:41.269872 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:48:41.270018 [debug] [MainThread]: Connection 'model.dbtlearn.src_reviews' was properly closed.
+[0m21:48:41.270207 [info ] [MainThread]: 
+[0m21:48:41.270383 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 0.22 seconds (0.22s).
+[0m21:48:41.270931 [debug] [MainThread]: Command end result
+[0m21:48:41.279994 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/ysung/git/dbtlearn/target/manifest.json
+[0m21:48:41.280847 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/ysung/git/dbtlearn/target/semantic_manifest.json
+[0m21:48:41.283552 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/ysung/git/dbtlearn/target/run_results.json
+[0m21:48:41.283736 [info ] [MainThread]: 
+[0m21:48:41.283937 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:48:41.284091 [info ] [MainThread]: 
+[0m21:48:41.284390 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m21:48:41.284783 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.5088318, "process_in_blocks": "0", "process_kernel_time": 0.150067, "process_mem_max_rss": "126861312", "process_out_blocks": "0", "process_user_time": 0.938259}
+[0m21:48:41.285040 [debug] [MainThread]: Command `dbt run` succeeded at 21:48:41.284999 after 0.51 seconds
+[0m21:48:41.285243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043822d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c3f920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104be3f20>]}
+[0m21:48:41.285434 [debug] [MainThread]: Flushing usage events
+[0m21:48:41.608844 [debug] [MainThread]: An error was encountered while trying to flush usage events
