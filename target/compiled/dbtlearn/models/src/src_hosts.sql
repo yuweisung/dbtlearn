@@ -1,5 +1,5 @@
 with raw_hosts as (
-    select * from raw.raw_hosts
+    select * from "airbnb"."raw"."raw_hosts"
 )
 select 
   id as host_id,

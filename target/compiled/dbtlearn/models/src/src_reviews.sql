@@ -1,5 +1,5 @@
 with raw_reviews as (
-    select * from raw.raw_reviews
+    select * from "airbnb"."raw"."raw_reviews"
 )
 select 
   listing_id,

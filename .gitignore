@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# dbt_packages
+dbt_packages/
+logs/
+target/
+seeds/
+raw/
