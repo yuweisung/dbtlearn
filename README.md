@@ -1,5 +1,3 @@
-Welcome to my dbt learn project!
-
 ### Howe to use this project
 ## Pre-requisites
 * uv
